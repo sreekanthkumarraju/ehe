@@ -1,0 +1,98 @@
+.main{
+    border:3px solid black;
+    height:500px;
+    width:fit-content;
+    display:grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+    column-gap: 15px;
+    grid-template-areas:
+    'it cse csse'
+    'civil mech mtech'
+    'mba'; 
+   padding:30px;
+   margin:auto;
+   margin-top:20px
+ 
+
+}
+.left{
+    float:left
+}
+.right{
+    padding-top:60px;
+    float:right
+}
+
+img{
+    width:180px;
+    height: 150px;
+    border-radius: 100%;
+    padding:15px 15px 15px 15px
+
+}
+
+.events{
+   border:1px solid black;
+    width:400px;
+    flex-direction:row;
+    flex-wrap: wrap;
+   font-size:20px;
+
+}
+#event1{
+    grid-area: it;
+}
+#event2{
+    grid-area:cse
+}
+#event3{
+    grid-area:csse
+}
+#event4{
+    grid-area:civil
+}
+#event5{
+    grid-area:mech
+}
+#event6{
+    grid-area:mtech
+}
+#event7{
+    grid-area:mba
+}
+
+span,button{
+    display: block;
+}
+span{
+    padding-bottom: 10px;
+    
+}
+
+button{
+    color:blue;
+   
+    font-size: 20px;;
+}
+
+button:hover{
+    background-color:red;
+}
+.disabled{
+    color:red;
+}
+.college{
+    text-align: center;
+    font-size: 50px;;
+    color:red
+}
+
+h4{
+    text-align:center;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
